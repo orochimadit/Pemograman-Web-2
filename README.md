@@ -71,6 +71,8 @@ Pemrograman Berorientasi Web 2/
 | **📘 Materi & Konsep** | 7 Prinsip Emas API Mobile (Cursor Pagination, Idempotency, SSE AI Stream, Payload compact) | [Buka Materi API Mobile](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/01_Materi_dan_Slide/M02_Membangun_API_untuk_Mobile_Modern.md) |
 | **🧪 Modul Praktikum** | 6 Challenge Hands-on bergaya freeCodeCamp (Step-by-step dari nol) | [Buka Modul Praktikum](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/02_Modul_Praktikum/MODUL_PRAKTIKUM_API_MOBILE.md) |
 | **📝 Lembar Tugas Mahasiswa** | Tugas In-Lab (45 menit), Tugas Take-Home, Template `PROMPT_LOG.md`, & Rubrik Penilaian | [Buka Lembar Penugasan](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/03_Tugas_dan_Latihan/TUGAS_MAHASISWA_API_MOBILE.md) |
+| **🎯 Tugas Proyek 16 Mahasiswa** | Daftar 16 judul proyek unik per individu (FitTrack, KopiVibe, MedikaMobile, dll.) | [Buka Tugas Proyek Mahasiswa](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/04_Tugas_Besar_Proyek/TUGAS_PROYEK_API_MAHASISWA.md) |
+| **👥 Daftar Presensi & Nilai** | Roster 16 mahasiswa, lembar presensi 16 pertemuan, & rekapitulasi nilai | [Buka Daftar Presensi](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/00_Silabus_dan_RPS/DAFTAR_PRESENSI_DAN_NILAI_MAHASISWA.md) |
 | **🚀 Starter Code Project** | Source code TypeScript, Express, Zod, JWT, Cursor Pagination, & SSE Stream siap run | [Buka Starter Code](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/05_Source_Code/01_Mobile_API_Starter) |
 
 ---
