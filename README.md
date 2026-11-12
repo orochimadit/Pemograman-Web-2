@@ -64,4 +64,15 @@ Pemrograman Berorientasi Web 2/
 
 ---
 
+## ⚡ Akses Cepat Materi & Tugas: Membangun REST API untuk Mobile
+
+| Berkas Panduan | Deskripsi & Isi | Tautan Langsung |
+| :--- | :--- | :--- |
+| **📘 Materi & Konsep** | 7 Prinsip Emas API Mobile (Cursor Pagination, Idempotency, SSE AI Stream, Payload compact) | [Buka Materi API Mobile](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/01_Materi_dan_Slide/M02_Membangun_API_untuk_Mobile_Modern.md) |
+| **🧪 Modul Praktikum** | 6 Challenge Hands-on bergaya freeCodeCamp (Step-by-step dari nol) | [Buka Modul Praktikum](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/02_Modul_Praktikum/MODUL_PRAKTIKUM_API_MOBILE.md) |
+| **📝 Lembar Tugas Mahasiswa** | Tugas In-Lab (45 menit), Tugas Take-Home, Template `PROMPT_LOG.md`, & Rubrik Penilaian | [Buka Lembar Penugasan](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/03_Tugas_dan_Latihan/TUGAS_MAHASISWA_API_MOBILE.md) |
+| **🚀 Starter Code Project** | Source code TypeScript, Express, Zod, JWT, Cursor Pagination, & SSE Stream siap run | [Buka Starter Code](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/05_Source_Code/01_Mobile_API_Starter) |
+
+---
+
 > 📖 **Dokumen Silabus & RPS Lengkap**: [Lihat RPS Pemrograman Web 2](file:///d:/Badra/project/Materi%20Perkuliahan/Pemrograman%20Berorientasi%20Web%202/00_Silabus_dan_RPS/RPS_Pemrograman_Web_2_VibeCoding.md)

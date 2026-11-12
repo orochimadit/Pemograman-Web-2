@@ -1,0 +1,49 @@
+### 1. Healthcheck Server
+GET http://localhost:3000/health
+Accept: application/json
+
+### 2. Register Akun Mahasiswa Baru
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "nim": "220101088",
+  "nama": "Sarah Amalia",
+  "email": "sarah@kampus.ac.id",
+  "password": "passwordAman123"
+}
+
+### 3. Login Mahasiswa (Mendapatkan Access Token & Refresh Token)
+# @name login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "aditya@kampus.ac.id",
+  "password": "secret123"
+}
+
+### 4. Ambil Feed Mobile (Batch 1 - Cursor Awal, Limit 3)
+GET http://localhost:3000/api/feed?limit=3
+Accept: application/json
+
+### 5. Ambil Feed Mobile (Batch 2 - Lanjutan dengan Cursor)
+# Ganti cursor dengan post id yang didapatkan dari batch 1
+GET http://localhost:3000/api/feed?limit=3&cursor=post_0198
+Accept: application/json
+
+### 6. Buat Postingan Baru dari Mobile (Wajib Bearer Token & Idempotency Key)
+POST http://localhost:3000/api/feed
+Content-Type: application/json
+Authorization: Bearer {{login.response.body.data.accessToken}}
+X-Idempotency-Key: mobile-req-uuid-1001
+
+{
+  "caption": "Mencoba integrasi REST API ke aplikasi smartphone via Vibe Coding! 📱⚡",
+  "category": "DISKUSI",
+  "imageUrl": "https://picsum.photos/400/300"
+}
+
+### 7. Uji Streaming AI Assistant via Server-Sent Events (SSE)
+GET http://localhost:3000/api/ai/stream-assistant?query=Jelaskan+Cursor+Pagination
+Accept: text/event-stream
